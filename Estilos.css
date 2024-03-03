@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 57px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: rgba(133, 117, 117, 0.493);
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 40px;
+    
+
+}
+
+.navbar a{
+    display: block;
+    padding: 20px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    background: goldenrod;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    
+    background: url(clairo.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 75px;
+    
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: white;
+    padding: 0 100px;
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 50px 0;
+    background: #303030;
+}
+.box-container2{
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://images.squarespace-cdn.com/content/v1/5a0dd6831f318dcf5130a0d5/1583769914191-NUN172LCY1K5EWJRFOZO/clairo-00.jpg?format=2500w) no-repeat center;
+    width: 100%;
+    height: 70hv;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.about {
+    background: #303030;
+    padding: 50px 0;
+}
+
+.box-container2{
+    display: flex;
+    justify-content: ;
+    padding-top: 50px ;
+    flex-wrap: wrap;
+}
+
+
+
+
+.box-container2 .box img{
+
+    height: 240px;
+    width: 240px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-top: -50px;
+    border: 6px solid goldenrod;
+
+}
+.albumes{
+    background: #303030;
+    padding: 50px 0;
+}
+.box-container3{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container3 .box{
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,.3);
+    background: #171717;
+    margin: 20px 20px;
+
+}
+
+.box-container3 .box img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid goldenrod;
+}
+
+.box-container3 .box h3{
+    font-size: 40px;
+    color: goldenrod;
+    padding-top: 10px;
+
+}
+
+.box-container3 .box p{
+    font-size: 36px;
+    color: white;
+    padding: 0;
+}
+
+.black{
+    background: #303030;
+    padding: 5px 0;
+}
+
+.music{
+    background: #303030;
+    padding: 30px 0;
+}
+
+.box-container4{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+.box-container4 .box{
+    width: 250px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,.3);
+    background: #171717;
+    margin: 20px 20px;
+
+}
+
+.box-container4 .box img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 6px solid goldenrod;
+}
+
+.box-container4 .box h3{
+    font-size: 40px;
+    color: goldenrod;
+    padding-top: 10px;
+
+}
+
+.box-container4 .box p{
+    font-size: 36px;
+    color: white;
+    padding: 0;
+}
+.white{
+    background: #303030;
+    padding: 50px 0;
+}
+
+.biografia{
+    background: #303030;
+    padding: 380px 0;
+}
+.biografia h3{
+    font-size: 25px;
+    color: goldenrod;
+    padding-top: 5px;
+
+}
+
+.biografia p{
+    font-size: 20px;
+    color: white;
+    padding: 0;
+
+    
+}
+
+.blue{
+    background: #303030;
+    padding: 50px 0;
+}
+
+.conciertos{
+    background:black;
+    padding: 50px 0;
+
+}
+
+.conciertos h2{
+    font-size: 50px;
+    color: goldenrod;
+    padding: 0;
+
+}
+
+.red{
+    background: goldenrod;
+    padding: 10px 0;
+}
+
+.red h2{
+    font-size: 40px;
+    color: 0,0,0,rgba(0,0,0,.3);
+    padding: 0%;
+}
+
+.red h3{
+    font-size: 35px;
+    color: 0,0,0,rgba(0,0,0,.3);
+    padding: 0;
+}
+
+.resolucion{
+    width: 99%;
+    text-align: center}
+
+@media (max-width:767px){
+    .desktop{display: none;}
+    .tablet{display: none;}
+    
+
+}
+
+@media (min-width:766) and (max-width:990px){
+    .desktop{display: none;}
+    
+    .movil{display: none;}
+    
+}
+
+@media (min-width:991px){
+    
+    .tablet{display: none;}
+    .movil{display: none;}
+    
+}
+
+.sau p{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.yellow{
+    background:  url(clairo-4k_1607679668.jpg) no-repeat center;
+    width: 100%;
+    height: 70hv;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+.home{
+    background: #303030;
+    padding: -50vh;
+   
+}
